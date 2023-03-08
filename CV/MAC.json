@@ -6,15 +6,33 @@
   },
   "aboutMe": {
     "profile": {
-      "name": "",
+      "name": "Belén",
+      "surnames": "Zumalacarregui",
       "title": "",
       "description": "",
       "location": {
+        "country": "España",
+        "region": "Comunidad de Madrid",
+        "municipality": "Madrid",
         "notes": "Autocompleted using Google Maps API"
       }
-    }
+    },
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/bel%C3%A9n-zumalacarregui-1907534/"
+      }
+    ]
   },
   "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "type": "linkedin",
+          "URL": "https://www.linkedin.com/in/bel%C3%A9n-zumalacarregui-1907534/"
+        }
+      ]
+    },
     "status": "searchingActively"
   }
 }
