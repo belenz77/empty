@@ -91,6 +91,48 @@
         }
       ]
     },
+    "preferences": {
+      "preferredCompetences": [
+        {
+          "name": "Bootstrap",
+          "type": "technology"
+        },
+        {
+          "name": "CSS",
+          "type": "technology"
+        },
+        {
+          "name": "HTML",
+          "type": "technology"
+        },
+        {
+          "name": "React",
+          "type": "technology"
+        },
+        {
+          "name": "Tailwind",
+          "type": "technology"
+        },
+        {
+          "name": "Visual Studio",
+          "type": "technology"
+        },
+        {
+          "name": "WordPress",
+          "type": "technology"
+        },
+        {
+          "name": "jQuery",
+          "type": "technology"
+        }
+      ],
+      "discardedCompetences": [
+        {
+          "name": "Symfony",
+          "type": "technology"
+        }
+      ]
+    },
     "status": "searchingActively"
   },
   "asgardPreferences": {
