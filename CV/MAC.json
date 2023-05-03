@@ -93,6 +93,14 @@
                 "type": "technology"
               },
               {
+                "name": "Google Analytics",
+                "type": "technology"
+              },
+              {
+                "name": "Google Maps",
+                "type": "technology"
+              },
+              {
                 "name": "HTML",
                 "type": "technology"
               },
