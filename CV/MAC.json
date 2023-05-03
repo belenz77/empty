@@ -140,6 +140,39 @@
             ]
           }
         ]
+      },
+      {
+        "details": {
+          "name": "Casas al Norte",
+          "description": "Actualización y mantenimiento del site corporativo y blog.",
+          "URL": "https://casasalnorte.com/",
+          "image": {
+            "alt": "casas-al-norte-pequeño.jpg",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/ce032a83-0c52-45e6-b3d5-9864b65b4583_casas-al-norte-peque.jpg"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2017-01-01",
+            "finishDate": "2020-01-01",
+            "competences": [
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "WordPress",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
