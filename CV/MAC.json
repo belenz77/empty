@@ -107,6 +107,39 @@
             ]
           }
         ]
+      },
+      {
+        "details": {
+          "name": "Mediatoolstv",
+          "description": "Site corporativo, desarrollado en HTML5 y CSS3, integrando PressPage para la sala de prensa.",
+          "URL": "http://mediatoolstv.com/",
+          "image": {
+            "alt": "logoS.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/3e5dc0cb-174a-455e-a935-bfb00ff34d00_logos.png"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2017-10-01",
+            "finishDate": "2022-10-01",
+            "competences": [
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "jQuery",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
