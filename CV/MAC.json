@@ -1,15 +1,17 @@
 {
   "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "settings": {
-    "language": "EN",
+    "language": "ES",
     "MACVersion": "0.3"
   },
   "aboutMe": {
     "profile": {
       "name": "Belén",
       "surnames": "Zumalacarregui",
+      "title": "Title",
       "description": "Soy  desarrolladora web  con más de 10 años de experiencia en el sector, y estoy apasionada por las nuevas tecnologías y los desafíos que ofrece el mundo digital.\n\nActualmente estoy terminando un Bootcamp Fullstack de 850 horas en Factoría F5.\n\nMe apasiona trabajar en proyectos que requieren creatividad e innovación. Me gusta encontrar soluciones técnicas para problemas complejos y lograr resultados que superen las expectativas del cliente. También soy una gran defensora del trabajo en equipo, considero que trabajar en colaboración permite la creación de soluciones más eficientes y eficaces.\n\nMe gusta estar al tanto de las últimas tendencias en el desarrollo web, y me encanta explorar nuevas herramientas y tecnologías para aplicarlas en mis proyectos. Siempre estoy en busca de nuevas formas de mejorar la experiencia del usuario y hacer que la tecnología sea más accesible y fácil de usar.",
       "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJgTwKgJcpQg0RaSKMYcHeNsQ)",
         "country": "España",
         "region": "Comunidad de Madrid",
         "municipality": "Madrid"
@@ -26,12 +28,138 @@
     "projects": [
       {
         "details": {
+          "name": "Casas al Norte",
+          "description": "Actualización y mantenimiento del site corporativo y blog.",
+          "URL": "https://casasalnorte.com/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/ce032a83-0c52-45e6-b3d5-9864b65b4583_casas-al-norte-peque.jpg",
+            "alt": "casas-al-norte-pequeño.jpg"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2017-01-01",
+            "competences": [
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "Google Analytics",
+                "type": "technology"
+              },
+              {
+                "name": "Google Maps",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "WordPress",
+                "type": "technology"
+              }
+            ],
+            "finishDate": "2020-01-01"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Mediatoolstv",
+          "description": "Site corporativo, desarrollado en HTML5 y CSS3, integrando PressPage para la sala de prensa.",
+          "URL": "http://mediatoolstv.com/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/3e5dc0cb-174a-455e-a935-bfb00ff34d00_logos.png",
+            "alt": "logoS.png"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2017-10-01",
+            "competences": [
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "Google Analytics",
+                "type": "technology"
+              },
+              {
+                "name": "Google Maps",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "jQuery",
+                "type": "technology"
+              }
+            ],
+            "finishDate": "2022-10-01"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Arandi Marketing & Team Building",
+          "description": "Site corporativo en Wordpress para Arandi, a partir de un proyecto existente, tanto a nivel de diseño como de desarrollo.",
+          "URL": "https://www.arandi.es/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/8ddebd61-e337-4e35-bc26-019fb0da23d6_arandiucraniamini.jpg",
+            "alt": "ARANDI&UCRANIAmini.jpg"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2019-09-01",
+            "competences": [
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "Google Analytics",
+                "type": "technology"
+              },
+              {
+                "name": "Google Maps",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "PHP",
+                "type": "technology"
+              },
+              {
+                "name": "WordPress",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
           "name": "Seo Bird Life Avenrurer@",
           "description": "Proyecto pedagógico  en equipo de fin del Bootcamp Fullstack Developer de Factoría F5.\nNuestro proyecto es una web educativa y lúdica centrada en los adolescentes. Consiste en el avistamiento de  las aves, plantas e insectos a lo largo de una excursión. El objetivo es comprender  cómo está afectando el cambio climático a los movimientos migratorios de las aves y a los procesos naturales de otras especies.",
           "URL": "https://seo-bird-life-front.vercel.app/",
           "image": {
-            "alt": "logoAventurero.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/166ca755-18c8-4a32-98d1-9326701b79eb_logoaventurero.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/166ca755-18c8-4a32-98d1-9326701b79eb_logoaventurero.png",
+            "alt": "logoAventurero.png"
           }
         },
         "type": "openSource",
@@ -71,157 +199,21 @@
             ]
           }
         ]
-      },
-      {
-        "details": {
-          "name": "Arandi Marketing & Team Building",
-          "description": "Site corporativo en Wordpress para Arandi, a partir de un proyecto existente, tanto a nivel de diseño como de desarrollo.",
-          "URL": "https://www.arandi.es/",
-          "image": {
-            "alt": "ARANDI&UCRANIAmini.jpg",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/8ddebd61-e337-4e35-bc26-019fb0da23d6_arandiucraniamini.jpg"
-          }
-        },
-        "type": "sideProject",
-        "roles": [
-          {
-            "name": "Developer",
-            "startDate": "2019-09-01",
-            "competences": [
-              {
-                "name": "CSS",
-                "type": "technology"
-              },
-              {
-                "name": "Google Analytics",
-                "type": "technology"
-              },
-              {
-                "name": "Google Maps",
-                "type": "technology"
-              },
-              {
-                "name": "HTML",
-                "type": "technology"
-              },
-              {
-                "name": "PHP",
-                "type": "technology"
-              },
-              {
-                "name": "WordPress",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "details": {
-          "name": "Mediatoolstv",
-          "description": "Site corporativo, desarrollado en HTML5 y CSS3, integrando PressPage para la sala de prensa.",
-          "URL": "http://mediatoolstv.com/",
-          "image": {
-            "alt": "logoS.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/3e5dc0cb-174a-455e-a935-bfb00ff34d00_logos.png"
-          }
-        },
-        "type": "sideProject",
-        "roles": [
-          {
-            "name": "Developer",
-            "startDate": "2017-10-01",
-            "finishDate": "2022-10-01",
-            "competences": [
-              {
-                "name": "CSS",
-                "type": "technology"
-              },
-              {
-                "name": "Google Analytics",
-                "type": "technology"
-              },
-              {
-                "name": "Google Maps",
-                "type": "technology"
-              },
-              {
-                "name": "HTML",
-                "type": "technology"
-              },
-              {
-                "name": "jQuery",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "details": {
-          "name": "Casas al Norte",
-          "description": "Actualización y mantenimiento del site corporativo y blog.",
-          "URL": "https://casasalnorte.com/",
-          "image": {
-            "alt": "casas-al-norte-pequeño.jpg",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/ce032a83-0c52-45e6-b3d5-9864b65b4583_casas-al-norte-peque.jpg"
-          }
-        },
-        "type": "sideProject",
-        "roles": [
-          {
-            "name": "Developer",
-            "startDate": "2017-01-01",
-            "finishDate": "2020-01-01",
-            "competences": [
-              {
-                "name": "CSS",
-                "type": "technology"
-              },
-              {
-                "name": "Google Analytics",
-                "type": "technology"
-              },
-              {
-                "name": "Google Maps",
-                "type": "technology"
-              },
-              {
-                "name": "HTML",
-                "type": "technology"
-              },
-              {
-                "name": "WordPress",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
       }
     ]
   },
   "knowledge": {
     "languages": [
       {
-        "name": "English"
+        "name": "EN",
+        "level": "Full professional proficiency"
       },
       {
-        "name": "Spanish"
+        "name": "ES",
+        "level": "Native or bilingual proficiency"
       }
     ],
     "hardSkills": [
-      {
-        "skill": {
-          "name": "SaaS",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "HTML",
-          "type": "technology"
-        }
-      },
       {
         "skill": {
           "name": "Bootstrap",
@@ -236,19 +228,7 @@
       },
       {
         "skill": {
-          "name": "JavaScript",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "WordPress",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Tailwind",
+          "name": "Figma",
           "type": "technology"
         }
       },
@@ -260,7 +240,13 @@
       },
       {
         "skill": {
-          "name": "Figma",
+          "name": "HTML",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JavaScript",
           "type": "technology"
         }
       },
@@ -269,6 +255,44 @@
           "name": "React",
           "type": "technology"
         }
+      },
+      {
+        "skill": {
+          "name": "SaaS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Tailwind",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "WordPress",
+          "type": "technology"
+        }
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Adaptabilidad al cambio",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Aprendizaje Continuo",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Trabajo en equipo",
+          "type": "practice"
+        }
       }
     ]
   },
@@ -276,8 +300,17 @@
     "contact": {
       "publicProfiles": [
         {
-          "type": "linkedin",
-          "URL": "https://www.linkedin.com/in/bel%C3%A9n-zumalacarregui-1907534/"
+          "URL": "https://www.linkedin.com/in/bel%C3%A9n-zumalacarregui-1907534/",
+          "type": "linkedin"
+        }
+      ],
+      "contactMails": [
+        "belen.zumi@gmail.com"
+      ],
+      "phoneNumbers": [
+        {
+          "number": "629647402",
+          "countryCode": "+34"
         }
       ]
     },
@@ -326,6 +359,46 @@
         "Frontend Developer",
         "Full-stack Developer"
       ]
-    }
+    },
+    "status": "searchingActively"
+  },
+  "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": "Bootstrap",
+        "type": "technology"
+      },
+      {
+        "name": "CSS",
+        "type": "technology"
+      },
+      {
+        "name": "HTML",
+        "type": "technology"
+      },
+      {
+        "name": "React",
+        "type": "technology"
+      },
+      {
+        "name": "WordPress",
+        "type": "technology"
+      }
+    ],
+    "desiredJobDescription": "Mi trabajo ideal sería en un ambiente colaborativo y dinámico, donde se valore y fomente el trabajo en equipo. Me encanta trabajar con personas con diferentes habilidades y perspectivas, porque creo que esto enriquece el resultado final del trabajo y nos ayuda a aprender unos de otros. Soy muy buena comunicando mis ideas y también escuchando las ideas de los demás, lo que me permite aportar en equipo de manera efectiva y trabajar para alcanzar objetivos en conjunto.\n\nDisfruto explorando nuevas ideas y tecnologías, y aplicando lo que he aprendido para mejorar mi trabajo y el trabajo de mi equipo. Me encanta estar al tanto de las últimas tendencias y tecnologías, y aplicar lo que he aprendido para crear soluciones innovadoras y eficaces.",
+    "projects": [
+      {
+        "name": "Arandi Marketing & Team Building"
+      },
+      {
+        "name": "Casas al Norte"
+      },
+      {
+        "name": "Mediatoolstv"
+      },
+      {
+        "name": "Seo Bird Life Avenrurer@"
+      }
+    ]
   }
 }
