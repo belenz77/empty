@@ -1,8 +1,8 @@
 {
-  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
   "settings": {
     "language": "ES",
-    "MACVersion": "0.3"
+    "MACVersion": "0.5"
   },
   "aboutMe": {
     "profile": {
@@ -32,30 +32,30 @@
     "projects": [
       {
         "details": {
-          "name": "Casas al Norte",
-          "description": "Actualización y mantenimiento del site corporativo y blog.",
-          "URL": "https://casasalnorte.com/",
+          "name": "Seo Bird Life Avenrurer@",
+          "description": "Proyecto pedagógico  en equipo de fin del Bootcamp Fullstack Developer de Factoría F5.\nNuestro proyecto es una web educativa y lúdica centrada en los adolescentes. Consiste en el avistamiento de  las aves, plantas e insectos a lo largo de una excursión. El objetivo es comprender  cómo está afectando el cambio climático a los movimientos migratorios de las aves y a los procesos naturales de otras especies.",
+          "URL": "https://seo-bird-life-front.vercel.app/",
           "image": {
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/ce032a83-0c52-45e6-b3d5-9864b65b4583_casas-al-norte-peque.jpg",
-            "alt": "casas-al-norte-pequeño.jpg"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/166ca755-18c8-4a32-98d1-9326701b79eb_logoaventurero.png",
+            "alt": "logoAventurero.png"
           }
         },
-        "type": "sideProject",
+        "type": "openSource",
         "roles": [
           {
             "name": "Developer",
-            "startDate": "2017-01-01",
+            "startDate": "2023-03-01",
             "competences": [
+              {
+                "name": "Bootstrap",
+                "type": "technology"
+              },
               {
                 "name": "CSS",
                 "type": "technology"
               },
               {
-                "name": "Google Analytics",
-                "type": "technology"
-              },
-              {
-                "name": "Google Maps",
+                "name": "Cypress",
                 "type": "technology"
               },
               {
@@ -63,52 +63,18 @@
                 "type": "technology"
               },
               {
-                "name": "WordPress",
+                "name": "Jest",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "Symfony",
                 "type": "technology"
               }
-            ],
-            "finishDate": "2020-01-01"
-          }
-        ]
-      },
-      {
-        "details": {
-          "name": "Mediatoolstv",
-          "description": "Site corporativo, desarrollado en HTML5 y CSS3, integrando PressPage para la sala de prensa.",
-          "URL": "http://mediatoolstv.com/",
-          "image": {
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/3e5dc0cb-174a-455e-a935-bfb00ff34d00_logos.png",
-            "alt": "logoS.png"
-          }
-        },
-        "type": "sideProject",
-        "roles": [
-          {
-            "name": "Developer",
-            "startDate": "2017-10-01",
-            "competences": [
-              {
-                "name": "CSS",
-                "type": "technology"
-              },
-              {
-                "name": "Google Analytics",
-                "type": "technology"
-              },
-              {
-                "name": "Google Maps",
-                "type": "technology"
-              },
-              {
-                "name": "HTML",
-                "type": "technology"
-              },
-              {
-                "name": "jQuery",
-                "type": "technology"
-              }
-            ],
-            "finishDate": "2022-10-01"
+            ]
           }
         ]
       },
@@ -158,30 +124,30 @@
       },
       {
         "details": {
-          "name": "Seo Bird Life Avenrurer@",
-          "description": "Proyecto pedagógico  en equipo de fin del Bootcamp Fullstack Developer de Factoría F5.\nNuestro proyecto es una web educativa y lúdica centrada en los adolescentes. Consiste en el avistamiento de  las aves, plantas e insectos a lo largo de una excursión. El objetivo es comprender  cómo está afectando el cambio climático a los movimientos migratorios de las aves y a los procesos naturales de otras especies.",
-          "URL": "https://seo-bird-life-front.vercel.app/",
+          "name": "Mediatoolstv",
+          "description": "Site corporativo, desarrollado en HTML5 y CSS3, integrando PressPage para la sala de prensa.",
+          "URL": "http://mediatoolstv.com/",
           "image": {
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/166ca755-18c8-4a32-98d1-9326701b79eb_logoaventurero.png",
-            "alt": "logoAventurero.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/3e5dc0cb-174a-455e-a935-bfb00ff34d00_logos.png",
+            "alt": "logoS.png"
           }
         },
-        "type": "openSource",
+        "type": "sideProject",
         "roles": [
           {
             "name": "Developer",
-            "startDate": "2023-03-01",
+            "startDate": "2017-10-01",
             "competences": [
-              {
-                "name": "Bootstrap",
-                "type": "technology"
-              },
               {
                 "name": "CSS",
                 "type": "technology"
               },
               {
-                "name": "Cypress",
+                "name": "Google Analytics",
+                "type": "technology"
+              },
+              {
+                "name": "Google Maps",
                 "type": "technology"
               },
               {
@@ -189,18 +155,52 @@
                 "type": "technology"
               },
               {
-                "name": "Jest",
-                "type": "technology"
-              },
-              {
-                "name": "React",
-                "type": "technology"
-              },
-              {
-                "name": "Symfony",
+                "name": "jQuery",
                 "type": "technology"
               }
-            ]
+            ],
+            "finishDate": "2022-10-01"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Casas al Norte",
+          "description": "Actualización y mantenimiento del site corporativo y blog.",
+          "URL": "https://casasalnorte.com/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/05/03/ce032a83-0c52-45e6-b3d5-9864b65b4583_casas-al-norte-peque.jpg",
+            "alt": "casas-al-norte-pequeño.jpg"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2017-01-01",
+            "competences": [
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "Google Analytics",
+                "type": "technology"
+              },
+              {
+                "name": "Google Maps",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "WordPress",
+                "type": "technology"
+              }
+            ],
+            "finishDate": "2020-01-01"
           }
         ]
       }
@@ -210,10 +210,12 @@
     "languages": [
       {
         "name": "EN",
+        "fullName": "Inglés",
         "level": "Full professional proficiency"
       },
       {
         "name": "ES",
+        "fullName": "Español",
         "level": "Native or bilingual proficiency"
       }
     ],
